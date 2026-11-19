@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html> 
+<head>
+	<meta chrset="UTF-8">
+    <meta name="viewport" content="width=device=width,initial-scale=1.0">
+    <title>Discover Guilin</title>
+    <style>
+    	body {
+    		font-family: Arial, sans-serif; 
+    		background-color: #f4f2ec;
+    		color: #343d38;
+    		margin: 0;
+    		padding: 40px 20px;
+	    	}
+	    	h1 
+	    	{ color: #315b50;
+	    	font-size: 36px;
+	    	text-align: center;
+	    }
+	    h2 {
+	    	color: #55796b;
+	    	font-size: 24px;
+	    }
+	    main {
+	    	max-width: 1000px;
+	    	margin: 0 auto;
+	    }
+	    p { 
+	    font-size: 17px;
+	    line-height: 1.6;
+	     }
+	     ul {
+	     	line-height: 1.8;
+	     }
+	     img {
+	     	display: block;
+	     	max-width: 700px;
+	     	width: 100%;
+	     	height: 25px auto;
+	     	border-radius: 8px;
+	     }
+	     .image-caption {
+	     	font-size: 14px;
+	     	color: #777777;
+	     	text-align: center;
+	     	font-style: italic;
+	     }
+	     a {
+	     	color: #315b50; 
+	     	text-decoration: none ;
+	     }
+	     a:hover {
+	     	color: #a47750;
+	     	text-decoration: underline;
+	     }
+	     hr {
+	     	border: none;
+	     	border-top: 1px solid #c8d2cc;
+	     	margin: 40px 0;
+	     }
+	     .guilin-intro {
+	     	display: flex;
+	     	align-items: center;
+	     	gap: 40px;
+	     	margin-top: 35px;
+	     }
+	     .guilin-text {
+	     	flex: 1;
+	     }
+	     .guilin-image {
+	     	flex: 0 0 540px;
+	     }
+	     .guilin-image img {
+	     	width: 100%;
+	     	max-width: 100%;
+	     	height: 320px;
+	     	object-fit: cover;
+	     	margin: 0;	     	   
+	     }
+	     .yangshuo-section {
+	     	display: flex;
+	     	align-items: center;
+	     	gap: 40px;
+	     	margin-top: 50px;
+	     }
+	     .yangshuo-text {
+	     	flex: 1;
+	     }
+	     	.yangshuo-image {
+	     		flex: 0 0 540px;
+	     	}
+	     .yangshuo-section img {
+	     	width: 100%;
+	     	max-width: 100%;
+	     	height: 320px;
+	     	object-fit: cover;
+	     	margin: 0;
+	     	border-radius: 8px;
+	     }
+	     @media (max-width: 600px) {
+	     	.yangshuo-section {
+	     	flex-direction: column;
+	     }
+	     .guilin-intro {
+	     	flex-direction: column;
+	     }
+	 }
+    </style>
+</head>
+<body>
+	<main>
+	<h1>Discover Guilin</h1>
+	<h2>A beautiful destination in China</h2>
+	<p>
+		Guilin is famous for its spectacular karst mountains
+		and beautiful rivers.
+	</p>
+	
+<div class="guilin-intro">
+
+    <div class="guilin-text">
+        <h2>Why visit Guilin?</h2>
+        <p>
+            Guilin is one of the most beautiful destinations in southern China.
+            Its landscapes are famous for limestone mountains, rivers and peaceful villages.
+        </p>
+
+        <h2>Top attractions</h2>
+        <ul>
+            <li>Li River</li>
+            <li>Elephant Trunk Hill</li>
+            <li>Yangshuo</li>
+            <li>Longji Rice Terraces</li>
+        </ul>
+    </div>
+
+    <div class="guilin-image">
+        <img src="Guilin.avif" alt="Karst mountains in Guilin">
+        <p class="image-caption">
+            The spectacular karst mountains of Guilin.
+        </p>
+    </div>
+
+</div>
+
+<section class="yangshuo-section">
+
+    <div class="yangshuo-text">
+        <h2>Discover Yangshuo</h2>
+        <p>
+            Surrounded by dramatic karst mountains and winding rivers,
+            Yangshuo is a charming destination known for its traditional
+            villages, peaceful countryside and unforgettable scenery.
+        </p>
+    </div>
+
+    <div class="yangshuo-image">
+        <img src="yangshuo.webp" alt="Yangshuo at night">
+        <p class="image-caption">
+            The magical night scenery of Yangshuo.
+        </p>
+    </div>
+
+</section>
+
+
+	<hr>
+	<h2>Best time to visit Guilin</h2>
+	<p> Spring and autum are considereted the best seasons to visit Guilin. The weather is generaly mild, and the landscapes are expecially beautiful</p>
+<p>
+	Learn more about Guilin:
+	<a 
+	href="https://en.wikipedia.org/wiki/Guilin">Discover Guilin on Wikipedia</a>
+</p>
+</main>
+</body>
+</html> 
